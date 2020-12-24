@@ -4,6 +4,7 @@
 //Importing core modules of Angular
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 
 //Whenever CLI is uesd to generate new components and services,
@@ -24,6 +25,7 @@ import { AppComponent } from './app.component';
   //Various imports needed for application can be added here.
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
 
